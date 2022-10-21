@@ -1,0 +1,110 @@
+nav{
+    height: 60px;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(2, 199, 190), rgb(60, 255, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    height: 60px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input{
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.details{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+i{
+    font-size: larger;
+}
+.para{
+    float: left;
+    margin-top: 30px;
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    margin-top: 10px;
+    /* padding-left: 50px; */
+}
+.btn{
+    position: relative;
+    left: 50%;
+    background-color: blue;
+    border: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: rgb(255, 39, 75);
+    color: white;
+    padding: 10px;
+}
+.red{
+    color: red;
+}
+.detail-para{
+    text-align: center;
+    width: 100%;
+}
+.likedCont{
+    display: flex;
+    height: 500px;
+    width: 100vw;
+    justify-content: center;
+}
+.liked-img{
+    height: 200px;
+    width: 200px;
+}
