@@ -6,7 +6,7 @@ const Navabar = ({ setSearch, search }) => {
         <nav>
             <ul>
                 <li><span style={{ fontWeight: "bold", fontSize: 30, color: "white" }}>Top News</span></li>
-                <NavLink to='/home'><li>Home</li></NavLink>
+                <NavLink to='/' end><li>Home</li></NavLink>
                 <NavLink to='/About'><li>About us</li></NavLink>
                 <NavLink to='/contact'><li>Contact Us</li></NavLink>
                 <NavLink to='/details'><li>Details Page</li></NavLink>

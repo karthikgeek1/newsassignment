@@ -18,7 +18,7 @@ const Details = () => {
         <p>{data.content}</p>
         </div>
       </div>:<h1>Please select something</h1>}
-      <Link to='/home'><button className='btn' onClick={()=>handleClick()}>Go Back</button></Link>
+      <Link to='/'><button className='btn' onClick={()=>handleClick()}>Go Back</button></Link>
     </div>
   )
 }
